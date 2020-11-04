@@ -1,0 +1,76 @@
+.container {
+width: 700px;
+margin: 0 auto;
+}
+.banner {
+background-image: url("https://source.unsplash.com/random/1000x500");
+background-size: cover;
+color: white;
+padding: 120px 0;
+}
+h1 {
+font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+h2{
+font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #A0A0A0;
+display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+font-family:charter, Georgia, Cambria, "Times New Roman", Times, serif;
+font-weight: 400;
+font-size: 21px;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+a{
+background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+color: #636363;
+font-weight: lighter;
+font-size: 25px;
+font-style: italic;
+}
+a:hover {
+background-image: linear-gradient(to bottom, rgb(125, 243, 255), rgb(59, 125, 210));
+}
+.banner h1 {
+font-size: 38px;
+}
+.banner p {
+font-style: italic;
+font-weight: lighter;
+font-size: 30px;
+}
+/* Media queries */
+@media(max-width: 900px) {
+.container {
+width: 700px;
+}
+}
+@media(max-width: 750px) {
+.container {
+width: 450px;
+}
+}
+@media(max-width: 500px) {
+.container {
+width: 350px;
+}
+.banner {
+padding: 50px 0;
+}
+.banner h1 {
+font-size: 30px;
+}
+.banner p {
+font-size: 20px;
+}
+}
